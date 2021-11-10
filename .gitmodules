@@ -1,0 +1,3 @@
+[submodule "wiki/themes/book"]
+	path = wiki/themes/book
+	url = https://github.com/alex-shpak/hugo-book
