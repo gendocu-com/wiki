@@ -27,6 +27,17 @@ message Book {
 }
 ```
 All the examples are validated during the build process. The generator skips the fields without a defined value.
+
+| Field Type | Example value | Comment |
+|--| -- | -- |
+| bytes | "MDIxMzQ3ODk0Ng=="" | base64 encoded value |
+| string | "some-string with chars ążę©" | utf-8 encoded string|
+| int32, int64, uint32, uint64, sint32, sint64, fixed32, fixed64, sfixed32, sfixed64 | 129803 | Integer value in decimal format. |
+| double,  float | 3.1415 | Floating point value |
+| boolean | true | might be true or false |
+| enums | 1 | the numeric value of enum |
+| repeated values | ["g","R","PC"] | JSON-valid lists with coma as a separator |
+
 ```java
 package demo;
 
