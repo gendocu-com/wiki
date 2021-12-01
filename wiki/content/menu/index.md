@@ -10,6 +10,8 @@ headless: true
     - [Documentation Portal Modes]({{<relref "/docs/documentation-portal-modes">}})
     - [Managing users]({{<relref "/docs/managing-users">}})
     - [Export documentation]({{<relref "/docs/exporting-documentation">}})
+- **Troubleshooting**
+    - [Python]({{<relref "/docs/troubleshooting/python">}})
 <br />
 <br />
 <br />
