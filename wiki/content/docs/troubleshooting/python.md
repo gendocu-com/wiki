@@ -1,10 +1,12 @@
 ---
 date: 01.12.2021
-title: API Versioning
-weight: 21
+title: Python troublershooting
+weight: 101
 prev: /docs/general-concepts
 ---
 # Python Troubleshooting
+
+Welcome in the gRPC Troubleshooting for Python.
 
 ## `pip3: not found`
 
