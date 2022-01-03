@@ -1,0 +1,62 @@
+
+
+
+<div id="cookie-popup"
+     style="position: fixed; display: block; width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; background-color: rgba(0,0,0,0.5); z-index: 40000; overflow: auto">
+    <div style="background: white; position: absolute; top: 50%; left: 50%; line-height: 1.2; padding: 8px 16px; min-width: 300px; font-size: 16px; max-height: 100vh; max-width: 100vw; overflow: auto; transform: translate(-50%,-50%)">
+        <div style="font-size: 30px; text-align: center; margin: 16px 8px; line-height: 1.2;">Before you continue to GenDocu
+        </div>
+        <p>GenDocu uses cookies and data to:
+        <ul>
+            <li> Deliver and maintain services, like tracking outages and protecting against spam, fraud and
+                abuse
+            </li>
+            <li>Measure audience engagement and site statistics to understand how our services are used</li>
+        </ul>
+        If you agree, we’ll also use cookies and data to:
+        <ul>
+            <li>Improve the quality of our services and develop new ones</li>
+            <li>Show personalised content, depending on your settings</li>
+            <li>Restrict or grant access</li>
+        </ul>
+        </p>
+        <div style="padding: 8px 32px; text-transform: uppercase; display: block; background-color: #1b3d67; color: white; border-radius: 0px; border: 0; margin: auto; cursor: pointer; text-align: center; width: 160px"
+             onClick="agreeAction()">I agree
+        </div>
+        <div style="display: block; margin: 16px auto; text-align: center">
+            <a style="text-decoration: none; color: #70757a" href="https://gendocu.com/pp.pdf">Privacy
+                Policy</a>
+            <ins style="text-decoration: none; color: #70757a; margin: 0px 4px">·</ins>
+            <a style="text-decoration: none; color: #70757a" href="https://gendocu.com/tos.html">Terms of
+                Service</a>
+        </div>
+    </div>
+</div>
+<script>
+    function getCookie(name) {
+        const value = `; ${document.cookie}`;
+        const parts = value.split(`; ${name}=`);
+        if (parts.length >= 2) return parts.pop().split(';').shift();
+    }
+
+    if (getCookie("agreed") == "true") {
+        document.getElementById("cookie-popup").style.display = "none";
+    }
+    function agreeAction() {
+        document.cookie = "agreed=true;"
+        document.getElementById("cookie-popup").style.display = "none";
+    }
+</script>
+<script type="text/javascript" >
+    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+    ym(70214857, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+    });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/70214857" style="position:absolute; left:-9999px;" alt="" /></div></noscript>

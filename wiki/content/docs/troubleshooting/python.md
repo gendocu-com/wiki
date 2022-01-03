@@ -37,6 +37,7 @@ The `grpcio` dependency (required by gRPC protocol) requires a C++ compiler, lik
 You are missing the python developer headers.
 
 | Platform | Solution |
+| -- | -- |
 | Linux/Alpine | 'apk add python3-dev' |
 | Linux/Ubuntu | 'apt-get install python3-dev` |
 | MacOs | This package is part of the official python3 package. Please reinstall the python3 package with brew |
@@ -47,6 +48,7 @@ You are missing the python developer headers.
 The compilation process has failed. Please check the error log to get more information.
 
 | Issue | Platform | Solution |
+| -- | -- | -- |
 | `fatal error: linux/futex.h:` | Linux/Alpine | `apk add linux-headers` |
 | `fatal error: linux/futex.h:` | Linux/Desktop | `apt-get install linux-generic` |
 
