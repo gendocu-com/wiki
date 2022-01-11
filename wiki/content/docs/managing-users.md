@@ -12,7 +12,7 @@ GenDocu does not sync the user roles with any repository - including the SDK and
 ## Role-based access
 Every project has its role list. The project creator gets the `owner` role.  Every project has to have at least one `owner`.
 
-| Permission | (no role) | Read-only | Developer | Owner |
+| Permission | (no role) | Documentation-only | Admin | Owner |
 |---|---|---|---|---|
 | Read public project documentation (newest) | ✅ |✅ |✅ |✅ |
 | Read private project documentation (newest) | ❌ | ✅ | ✅ |✅ |
