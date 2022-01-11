@@ -4,6 +4,7 @@ headless: true
 
 - **Project**
     - [Project setup]({{< relref "/docs/documentation-setup" >}})
+    - [Providing gRPC API information]({{< relref "/docs/providing-grpc-api-information" >}})
     - [Improve documentation]({{< relref "/docs/documentation-improvements" >}})
     - [API versioning]({{<relref "/docs/api-versioning">}})
 - **Managing access**

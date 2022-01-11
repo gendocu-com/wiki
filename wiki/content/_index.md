@@ -17,6 +17,7 @@ You can also use our [example project](https://github.com/gendocu-com-examples/l
 Create the gRPC CI/CD and documentation project. Automate the SDK generation and the ready-to-copy gRPC code-snippets for multiple programming languages.
 
 - [Project setup]({{< relref "/docs/documentation-setup" >}})
+- [Providing gRPC API informations]({{< relref "/docs/providing-grpc-api-information" >}})
 - [Improve documentation]({{< relref "/docs/documentation-improvements" >}})
 - [API versioning]({{<relref "/docs/api-versioning">}})
 <--->
